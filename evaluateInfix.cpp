@@ -60,7 +60,6 @@ void DisplayMenu() /* Displays Menu */
         <<"c || Cos\n"
         <<"t || Tan\n"
         <<"~ || Negative Number\n"
-        <<"Sample Infix Equation: ((s(~4^5)*1.4)/($(23+2)-~2.8))*(c(1%2)/(7.28*.1987)^(t23))\n";
 }
 
 string ConvertInfixToPostfix(string infix) /* Converts Infix expression to Postfix expression */
