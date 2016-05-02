@@ -2,7 +2,7 @@
 
 enum TYPES
 {
-    REJECT = ,
+    REJECT = 0 ,
     INTEGER,
     REAL,
     NEGATIVE,
