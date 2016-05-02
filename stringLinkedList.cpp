@@ -1,3 +1,5 @@
+#include "stringLinkedList.h"
+
 void stringLinkedListInitialize(stringLinkedList* stringList)
 {
     stringList->head=NULL;
