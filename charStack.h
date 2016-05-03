@@ -1,4 +1,5 @@
 /* char Stack implementation */
+#define MAXSIZE 100
 typedef struct
 {
     char items[MAXSIZE];
