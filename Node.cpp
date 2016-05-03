@@ -15,23 +15,23 @@ private:
 
 public:
 	Node(T ndata){
-		this->data = data;
+		this->data = ndata;
 		this->next = NULL;
 	}
 
 	T getData(){
-		return data;
+		return this->data;
 	}
 
 	void setData(T data) {
 		this->data = data;
 	}
 
-	const Node*& getNext() const {
+	 Node* getNext()  {
 		return next;
 	}
 
-	void setNext(const Node*& next) {
+	void setNext(Node* next) {
 		this->next = next;
 	}
 };
