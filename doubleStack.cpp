@@ -1,3 +1,5 @@
+#include "doubleStack.h"
+
 void doubleStackInitialize(doubleStack *s)
 {
     s->top=0;
