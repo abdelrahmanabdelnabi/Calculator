@@ -1,4 +1,4 @@
-
+#include "charStack.h"
 
 void charStackInitialize(charStack *s)
 {
