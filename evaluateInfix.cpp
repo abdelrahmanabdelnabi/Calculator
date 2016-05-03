@@ -1,4 +1,9 @@
 #include "evaluateInfix.h"
+#include <cmath>
+#include <iostream>
+#include <cstdlib>
+#include <cctype>
+#include <string>
 
 enum TYPES
 {
