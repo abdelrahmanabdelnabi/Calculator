@@ -30,7 +30,7 @@ typedef struct
 
 void stringLinkedListInitialize(stringLinkedList* stringList);
 int stringLinkedListIsEmpty(stringLinkedList* stringList);
-void stringLinkedListAddTail(stringLinkedList stringList, string value);
+void stringLinkedListAddTail(stringLinkedList* stringList, string value);
 stringNode* newStringLinkedListNode(string value);
 void DisplayStringLinkedList(stringLinkedList* stringList);
 int SizeOfStringLinkedList(stringLinkedList* stringList);
