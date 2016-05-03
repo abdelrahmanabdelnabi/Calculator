@@ -28,6 +28,7 @@ typedef struct
 } stringLinkedList;
 
 
+
 void stringLinkedListInitialize(stringLinkedList* stringList);
 int stringLinkedListIsEmpty(stringLinkedList* stringList);
 void stringLinkedListAddTail(stringLinkedList* stringList, string value);
